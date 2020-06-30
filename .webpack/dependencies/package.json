@@ -1,0 +1,11 @@
+{
+  "name": "covid-scrapper",
+  "version": "1.0.0",
+  "description": "Packaged externals for covid-scrapper",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "chrome-aws-lambda": "^3.1.1",
+    "puppeteer-core": ""
+  }
+}

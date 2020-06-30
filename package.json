@@ -1,0 +1,48 @@
+{
+  "name": "covid-scrapper",
+  "version": "1.0.0",
+  "description": "Serverless api to scrapper covid data of google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "dev": "eslint . && sls offline start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resystem/covid-scrapper.git"
+  },
+  "author": "Resystem Colective",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/resystem/covid-scrapper/issues"
+  },
+  "homepage": "https://github.com/resystem/covid-scrapper#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@serverless-chrome/lambda": "^1.0.0-55",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "chrome-aws-lambda": "^3.1.1",
+    "chrome-launcher": "^0.13.3",
+    "puppeteer": "^4.0.1",
+    "puppeteer-serverless": "^1.0.0",
+    "request": "^2.88.2",
+    "serverless-offline": "^6.4.0",
+    "serverless-plugin-chrome": "^1.0.0-55.3",
+    "serverless-webpack": "^5.3.2",
+    "superagent": "^5.2.2",
+    "webpack": "^4.43.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
