@@ -23,9 +23,10 @@ const headers = {
 export default async () => {
   // launch a headless browser
   const browser = await chromium.puppeteer.launch({
-    args: chromium.args,
-    executablePath: await chromium.executablePath,
+    args: [...chromium.args, 'no-sandbox'],
     defaultViewport,
+    executablePath: await chromium.executablePath,
+    headless: false,
   });
 
   // open a new tab

@@ -50,7 +50,7 @@ functions:
         method: GET
         cors:
           origins:
-            - https://*.som.vc
+            - https://datacovidbrasil.org
           headers:
             - Content-Type
             - Access-Control-Allow-Origin
